@@ -1,0 +1,3 @@
+disks/*.img
+*.o
+*.bin
