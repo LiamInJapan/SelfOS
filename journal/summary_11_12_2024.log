@@ -1,0 +1,25 @@
+Summary of Conversation
+=======================
+Start Time: 2024-12-10 21:00:00 (this is the start of this project!)
+End Time: 2024-12-11 22:45:00
+
+Key Points Discussed
+--------------------
+1. Discussed low-level system programming, including bootloader and kernel development.
+2. Explored creating a minimal operating system capable of interacting with an AI like ChatGPT.
+3. Worked through debugging issues with bootloader and kernel interaction, including QEMU setup and disk image inspection.
+4. Brainstormed the concept of a self-writing operating system:
+   - Chatlog-based journaling for development history.
+   - Whether constructs like files and filesystems are necessary given AI's potential.
+   - How new paradigms (AI, VR, quantum computing) might drive fundamentally new OS designs.
+5. Decided to incorporate a journaling system into the project, with daily conversation logs and Git-based versioning.
+
+Additional Notes
+----------------
+- Some ideas I would like to explore from here are:
+   - Can we build a routine / workflow from here, such as:
+      - Recap our notes
+      - Talk about observations / thoughts / research done since last engagement
+      - Dive into implementation and practical work
+      - Wrap up, summarise, update journal, note next steps
+   - Coming back to the files and filesystem comment, is there a way that I can "flatten" (and preferably compress) a repository and send it to an LLM for an overall codebase analysis? Can this be compared against notes/conversation logs (this type of workflow may well be interesting later on too)
